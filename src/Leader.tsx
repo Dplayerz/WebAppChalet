@@ -53,7 +53,7 @@ function MariArr() {
 }
 
 const data = [
-  { Nom: "Pepper", Photo: <Photo />, PTS: 45 },
+  { Nom: "Pepper", Photo: <Photo />, PTS: 0 },
   { Nom: "Alice", Photo: <AliceArr />, PTS: 1 },
   { Nom: "Maxime", Photo: <MaxArr />, PTS: 6 },
   { Nom: "Steve", Photo: <SteveArr />, PTS: 1 },
