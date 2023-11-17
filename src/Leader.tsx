@@ -1,5 +1,4 @@
 import "./styles.css";
-import Pepper from "./assets/Pepper.jpg";
 import Emy from "./assets/EmyCha2.jpg";
 import Steve from "./assets/SteveCha.jpg";
 import Alice from "./assets/AliceCha.jpg";
@@ -10,9 +9,10 @@ import max from "./assets/MaxChalet.jpg";
 import kath from "./assets/KathCha.jpg";
 import cath from "./assets/CathCha.jpg";
 import Eliane from "./assets/ElianeCha2.jpg";
-/*import yanni from "./assets/YanniCha.jpg";*/
+import yanni from "./assets/YanniChaV.jpg";
 import youri from "./assets/YouriCha.jpg";
 import mari from "./assets/MariCha.jpg";
+import Pepper from "./assets/Pepper.jpg";
 
 function Photo() {
   return <img src={Pepper}></img>;
@@ -41,9 +41,7 @@ function CathArr() {
 function ElianeArr() {
   return <img src={Eliane}></img>;
 }
-/*function yanniArr() {
-  return <img src={yanni}></img>;
-}*/
+
 function YouriArr() {
   return <img src={youri}></img>;
 }
@@ -51,10 +49,13 @@ function YouriArr() {
 function MariArr() {
   return <img src={mari}></img>;
 }
+function YanniBug() {
+  return <img src={yanni}></img>;
+}
 
 const data = [
-  { Nom: "Pepper", Photo: <Photo />, PTS: 45 },
-  { Nom: "Alice", Photo: <AliceArr />, PTS: 1 },
+  { Nom: "Pepper", Photo: <Photo />, PTS: 3 },
+  { Nom: "Alice", Photo: <AliceArr />, PTS: 3 },
   { Nom: "Maxime", Photo: <MaxArr />, PTS: 6 },
   { Nom: "Steve", Photo: <SteveArr />, PTS: 1 },
   { Nom: "Kath", Photo: <KathArr />, PTS: 1 },
@@ -64,7 +65,7 @@ const data = [
   { Nom: "Emy", Photo: <EmyArr />, PTS: 0 },
   { Nom: "Youri", Photo: <YouriArr />, PTS: 0 },
   { Nom: "Mari", Photo: <MariArr />, PTS: 0 },
-  { Nom: "Yanni", Photo: 0, PTS: 0 },
+  { Nom: "Yanni", Photo: <YanniBug />, PTS: 0 },
   { Nom: "Mede", Photo: 0, PTS: 0 },
 ];
 
