@@ -14,8 +14,6 @@ import Eliane from "./assets/ElianeCha2.jpg";
 import youri from "./assets/YouriCha.jpg";
 import mari from "./assets/MariCha.jpg";
 import Bug from "./assets/small rat.png";
-import youri from "./assets/YouriCha.jpg";
-import mari from "./assets/MariCha.jpg";
 
 
 function Photo() {
@@ -62,8 +60,6 @@ function BugX(){
 const data = [
   { Nom: "Pepper", Photo: 0, PTS: 3 },
   { Nom: "Alice", Photo: <AliceArr />, PTS: 4 },
-  { Nom: "Pepper", Photo: <Photo />, PTS: 4 },
-  { Nom: "Alice", Photo: <AliceArr />, PTS: 3 },
   { Nom: "Maxime", Photo: <MaxArr />, PTS: 6 },
   { Nom: "Steve", Photo: <SteveArr />, PTS: 1 },
   { Nom: "Kath", Photo: <KathArr />, PTS: 1 },
