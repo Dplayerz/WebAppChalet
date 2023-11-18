@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import "./styles.css";
 import "./App.css";
 import { team1 } from "./Leader";
@@ -13,6 +14,10 @@ data.sort((a, b) => {
   if (b.PTS > a.PTS) return 1;
   return 0;
 });
+=======
+import "./App.css"
+
+>>>>>>> 448d2729b36397671d640b2fc920f69d8ed46334
 
 function Admin() {
   return (

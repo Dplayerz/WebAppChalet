@@ -13,7 +13,12 @@ table tr,td,th {
   color: white;
 }
 
+<<<<<<< HEAD
 .h1 {
   color:white;
+=======
+.div {
+  color: white;
+>>>>>>> 448d2729b36397671d640b2fc920f69d8ed46334
 }
 
