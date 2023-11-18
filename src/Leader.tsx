@@ -10,7 +10,7 @@ import max from "./assets/MaxChalet.jpg";
 import kath from "./assets/KathCha.jpg";
 import cath from "./assets/CathCha.jpg";
 import Eliane from "./assets/ElianeCha2.jpg";
-import yanni from "./assets/YanniChaV.jpg";*/
+import yanni from "./assets/YanniChaV.jpg";
 import youri from "./assets/YouriCha.jpg";
 import mari from "./assets/MariCha.jpg";
 
