@@ -1,5 +1,5 @@
 import "./styles.css";
-import Pepper from "./assets/Pepper.jpg";
+import Pepper from "./assets/Random.jpg";
 import Emy from "./assets/EmyCha2.jpg";
 import Steve from "./assets/SteveCha.jpg";
 import Alice from "./assets/AliceCha.jpg";
@@ -13,6 +13,7 @@ import Eliane from "./assets/ElianeCha2.jpg";
 /*import yanni from "./assets/YanniCha.jpg";*/
 import youri from "./assets/YouriCha.jpg";
 import mari from "./assets/MariCha.jpg";
+
 
 function Photo() {
   return <img src={Pepper}></img>;
