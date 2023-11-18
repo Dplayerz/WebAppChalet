@@ -13,11 +13,6 @@ export default function Nav() {
             TeamScore
           </Link>
           <Link to="./Login" className="Login">
-          <a href="./Admin" className="Admin">
-            TeamScore
-          </a>
-          <a href="./Login" className="Login">
-            Login
           </Link>
         </li>
       </ul>
