@@ -1,8 +1,7 @@
 import "./styles.css";
-<<<<<<< HEAD
-=======
+
+
 import Pepper from "./assets/Random.jpg";
->>>>>>> 448d2729b36397671d640b2fc920f69d8ed46334
 import Emy from "./assets/EmyCha2.jpg";
 import Steve from "./assets/SteveCha.jpg";
 import Alice from "./assets/AliceCha.jpg";
@@ -12,11 +11,8 @@ import max from "./assets/MaxChalet.jpg";
 import kath from "./assets/KathCha.jpg";
 import cath from "./assets/CathCha.jpg";
 import Eliane from "./assets/ElianeCha2.jpg";
-<<<<<<< HEAD
 import youri from "./assets/YouriCha.jpg";
 import mari from "./assets/MariCha.jpg";
-
-=======
 import Bug from "./assets/small rat.png";
 import youri from "./assets/YouriCha.jpg";
 import mari from "./assets/MariCha.jpg";
@@ -25,7 +21,6 @@ import mari from "./assets/MariCha.jpg";
 function Photo() {
   return <img src={Pepper}></img>;
 }
->>>>>>> 448d2729b36397671d640b2fc920f69d8ed46334
 function EmyArr() {
   return <img src={Emy}></img>;
 }
@@ -65,13 +60,10 @@ function BugX(){
 }
 
 const data = [
-<<<<<<< HEAD
   { Nom: "Pepper", Photo: 0, PTS: 3 },
   { Nom: "Alice", Photo: <AliceArr />, PTS: 4 },
-=======
   { Nom: "Pepper", Photo: <Photo />, PTS: 4 },
   { Nom: "Alice", Photo: <AliceArr />, PTS: 3 },
->>>>>>> 448d2729b36397671d640b2fc920f69d8ed46334
   { Nom: "Maxime", Photo: <MaxArr />, PTS: 6 },
   { Nom: "Steve", Photo: <SteveArr />, PTS: 1 },
   { Nom: "Kath", Photo: <KathArr />, PTS: 1 },
