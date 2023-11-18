@@ -9,7 +9,7 @@ export default function Nav() {
       <ul>
         <li>
           <a href="./Admin" className="Admin">
-            Admin
+            TeamScore
           </a>
           <a href="./Login" className="Login">
             Login
