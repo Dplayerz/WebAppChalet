@@ -1,19 +1,20 @@
 import "./styles.css";
+import { Link } from "react-router-dom";
 
 export default function Nav() {
   return (
     <nav className="nav">
-      <a href="/" className="site-title">
+      <Link to="/" className="site-title">
         PEPPER GAMES{" "}
-      </a>
+      </Link>
       <ul>
         <li>
-          <a href="./Admin" className="Admin">
-            Admin
-          </a>
-          <a href="./Login" className="Login">
+          <Link to="./Admin" className="Admin">
+            TeamScore
+          </Link>
+          <Link to="./Login" className="Login">
             Login
-          </a>
+          </Link>
         </li>
       </ul>
     </nav>
