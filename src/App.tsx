@@ -12,11 +12,7 @@ function App() {
       <Nav />
       <Routes>
         <Route path="/" element={<Leader />}></Route>
-<<<<<<< HEAD
-        <Route path="/Admin" element={<Admin />}></Route>
-=======
         <Route path="/Admin" element={<Admin /></Route>
->>>>>>> 448d2729b36397671d640b2fc920f69d8ed46334
       </Routes>
     </BrowserRouter>
   );
