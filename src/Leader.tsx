@@ -10,7 +10,7 @@ import max from "./assets/MaxChalet.jpg";
 import kath from "./assets/KathCha.jpg";
 import cath from "./assets/CathCha.jpg";
 import Eliane from "./assets/ElianeCha2.jpg";
-import yanni from "./assets/small rat.png";
+import Bug from "./assets/small rat.png";
 import youri from "./assets/YouriCha.jpg";
 import mari from "./assets/MariCha.jpg";
 
@@ -42,15 +42,18 @@ function CathArr() {
 function ElianeArr() {
   return <img src={Eliane}></img>;
 }
-function yanniArr() {
-  return <img src={yanni}></img>;
-}
+
 function YouriArr() {
   return <img src={youri}></img>;
 }
 
 function MariArr() {
   return <img src={mari}></img>;
+}
+
+
+function BugX(){
+  return <img src={Bug}></img>;
 }
 
 const data = [
@@ -65,7 +68,7 @@ const data = [
   { Nom: "Emy", Photo: <EmyArr />, PTS: 0 },
   { Nom: "Youri", Photo: <YouriArr />, PTS: 0 },
   { Nom: "Mari", Photo: <MariArr />, PTS: 0 },
-  { Nom: "Yanni", Photo: <yanniArr />, PTS: 0 },
+  { Nom: "Yanni", Photo: <BugX />, PTS: 0 },
   { Nom: "Mede", Photo: 0, PTS: 0 },
 ];
 
