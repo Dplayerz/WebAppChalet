@@ -1,11 +1,12 @@
-import "./styles.css";
+import "./styleLogo.css";
 import { Link } from "react-router-dom";
+import Logo from "./assets/PEPPERLogoReal.png";
 
 export default function Nav() {
   return (
     <nav className="nav">
       <Link to="/" className="site-title">
-        PEPPER GAMES{" "}
+        <img src={Logo} alt="logo" className="logo" />
       </Link>
       <ul>
         <li>
