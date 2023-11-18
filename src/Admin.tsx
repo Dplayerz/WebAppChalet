@@ -1,3 +1,6 @@
+import "./App.css"
+
+
 function Admin() {
   <div>5555</div>;
 }
