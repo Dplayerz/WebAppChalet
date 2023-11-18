@@ -1,6 +1,5 @@
 // Filename - App.js
 import "./App.css";
-import "./assets/doom.jpg";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Nav from "./NavBar";
 import Admin from "./Admin";
@@ -12,7 +11,6 @@ function App() {
       <Nav />
       <Routes>
         <Route path="/" element={<Leader />}></Route>
-        <Route path="/Admin" element={<Admin /></Route>
       </Routes>
     </BrowserRouter>
   );
