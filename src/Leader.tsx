@@ -5,7 +5,6 @@ import Pepper from "./assets/Random.jpg";
 import Emy from "./assets/EmyCha2.jpg";
 import Steve from "./assets/SteveCha.jpg";
 import Alice from "./assets/AliceCha.jpg";
-import Delayed from "./Delayed";
 import Raph from "./assets/RaphCha.jpg";
 import max from "./assets/MaxChalet.jpg";
 import kath from "./assets/KathCha.jpg";
