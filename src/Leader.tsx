@@ -98,7 +98,7 @@ function Leader() {
   return (
     <div className="App">
       <header>LEADERBOARD</header>
-      <Delayed>
+    
         <table>
           <tr>
             <th>Nom</th>
@@ -115,7 +115,7 @@ function Leader() {
             );
           })}
         </table>
-      </Delayed>
+      
     </div>
   );
 }
