@@ -69,7 +69,7 @@ const data = [
   { Nom: "Emy", Photo: <EmyArr />, PTS: 0 },
   { Nom: "Youri", Photo: <YouriArr />, PTS: 0 },
   { Nom: "Mari", Photo: <MariArr />, PTS: 0 },
-  { Nom: "Yanni", Photo: <BugX />, PTS: 0 },
+  { Nom: "Yanni", Photo: <BugX />, PTS: 1 },
 ];
 
 const Pep = data[0].PTS;
