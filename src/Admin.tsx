@@ -4,7 +4,7 @@ import { team1 } from "./Leader";
 import { team2 } from "./Leader";
 
 const data = [
-  { Nom: "team1", PTS: team1 },
+  { Nom: "Les vieilles dénaigeuses", PTS: team1 },
   { Nom: "team2", PTS: team2 },
 ];
 
