@@ -20,14 +20,15 @@ to {
 }}
 
 
-li {
-    animation: animate 10s;
+.Admin {
+animation: Opacity 6s;
 }
 
-@keyframes animate {
-    0%{
-        width: 0px;
-        height: 0px;
-    }
-    
+.Login{
+    display:none;
+}
+
+@keyframes Opacity {
+    from{opacity: 0%;}
+    to{opacity: 100%;}
 }
