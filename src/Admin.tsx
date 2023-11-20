@@ -5,7 +5,7 @@ import { team2 } from "./Leader";
 
 const data = [
   { Nom: "Les vieilles déneigeuses", PTS: team1 },
-  { Nom: "team2", PTS: team2 },
+  { Nom: "Les achigans a petites bites", PTS: team2 },
 ];
 
 data.sort((a, b) => {
