@@ -15,10 +15,9 @@ function App() {
         <Route path="/" element={<Leader />}></Route>
 
 
-
         
         <Route path="/Admin" element={<Admin />}></Route>
-        <Route path="/Défis" element={<Login />}></Route>
+        <Route path="/Login" element={<Login />}></Route>
       </Routes>
     </BrowserRouter>
   );
