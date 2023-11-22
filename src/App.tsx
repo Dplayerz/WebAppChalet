@@ -4,6 +4,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Nav from "./NavBar";
 import Admin from "./Admin";
 import Leader from "./Leader";
+import Login from "./Login";
+
 
 function App() {
   return (
@@ -16,6 +18,7 @@ function App() {
 
         
         <Route path="/Admin" element={<Admin />}></Route>
+        <Route path="/Défis" element={<Login />}></Route>
       </Routes>
     </BrowserRouter>
   );
