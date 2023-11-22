@@ -55,7 +55,7 @@ const defi = [
   { D: "11", Nom: "AL,XP" },
   { D: "12", Nom: "AL" },
   { D: "13", Nom: "YA,MA,MeD" },
-{D: "E" , Nom: "ST,KA"},
+{D: "E" , Nom: "ST,Emy,KA"},
 ];
 
 export default Login;
