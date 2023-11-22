@@ -13,10 +13,9 @@ export default function Nav() {
           <Link to="./Admin" className="Admin">
             TeamScore
           </Link>
-          <Link to="./Login" className="Login">
-            Défis
-          </Link>
-          <Link to="./Login">Test</Link>
+
+          
+          <Link to="./Login" className="Login">Défis</Link>
         </li>
       </ul>
     </nav>
