@@ -19,7 +19,40 @@ function Login() {
       <li>Vidéo de vous qui Bench.</li>
       <li>Faire un bonhomme de neige</li>
       <li>A suivre.</li>
-    </ol> );
+    </ol> 
+          
+<table>
+        <tr>
+          <th>Defi</th>
+          <th>Complete</th>
+        </tr>
+        {defi.map((val, key) => {
+          return (
+            <tr key={key}>
+              <td>{val.D}</td>
+              <td>{val.Nom}</td>
+            </tr>
+          );
+        })}
+      </table>
+    </div>
+  );
 }
+
+const defi = [
+  { D: "1", Nom: "AL, XP" },
+  { D: "2", Nom: "MAX=6" },
+  { D: "3", Nom: "MA" },
+  { D: "4", Nom: "" },
+  { D: "5", Nom: "" },
+  { D: "6", Nom: "" },
+  { D: "7", Nom: "" },
+  { D: "8", Nom: "" },
+  { D: "9", Nom: "" },
+  { D: "10", Nom: "MA" },
+  { D: "11", Nom: "AL,XP" },
+  { D: "12", Nom: "AL" },
+  { D: "13", Nom: "MA" },
+];
 
 export default Login;
