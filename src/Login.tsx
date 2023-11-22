@@ -19,7 +19,7 @@ function Login() {
       <li>Vidéo de vous qui Bench.</li>
       <li>Faire un bonhomme de neige</li>
       <li>A suivre.</li>
-    </ol> ):
+    </ol> );
 }
 
 export default Login;
