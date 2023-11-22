@@ -14,6 +14,7 @@ export default function Nav() {
             TeamScore
           </Link>
           <Link to="./Login" className="Login">
+            Défis
           </Link>
         </li>
       </ul>
