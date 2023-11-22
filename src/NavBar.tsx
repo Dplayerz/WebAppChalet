@@ -15,7 +15,7 @@ export default function Nav() {
           </Link>
 
           
-          <Link to="./Login" className="Login">Défis</Link>
+          <Link to="./Login">Défis</Link>
         </li>
       </ul>
     </nav>
