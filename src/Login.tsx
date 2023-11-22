@@ -1,7 +1,9 @@
 import "./styles.css";
 
 function Login() {
-  return ( <ol>
+  return (
+    <div>
+    <ol>
       <li>Prenez une photo de vous avec la croix du Mont Bellevue allumée.</li>
       <li>
         Prenez une photo de chaque participant aux olympiades à leur insu.
