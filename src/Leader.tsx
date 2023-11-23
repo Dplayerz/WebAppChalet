@@ -13,6 +13,7 @@ import Eliane from "./assets/ElianeCha2.jpg";
 import youri from "./assets/YouriCha.jpg";
 import mari from "./assets/MariCha.jpg";
 import Bug from "./assets/small rat.png";
+import alexe from "./assets/alexeCha.jpg";
 
 
 function Photo() {
@@ -55,6 +56,10 @@ function MariArr() {
 function BugX(){
   return <img src={Bug}></img>;
 }
+function AleArr() {
+  return <img src={alexe}></img>;
+}
+
 
 const data = [
   { Nom: "Pepper", Photo: <Photo />, PTS: 6 },
@@ -70,7 +75,7 @@ const data = [
   { Nom: "Mari", Photo: <MariArr />, PTS: 3 },
   { Nom: "Yanni", Photo: <BugX />, PTS: 5 },
   { Nom: "Médé", Photo: 0, PTS:  2 }, 
-{ Nom: "Alexe", Photo: 0, PTS: 2 },
+{ Nom: "Alexe", Photo: <AleArr />, PTS: 2 },
 ];
 
 const Pep = data[0].PTS;
