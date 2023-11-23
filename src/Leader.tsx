@@ -57,7 +57,7 @@ function BugX(){
 }
 
 const data = [
-  { Nom: "Pepper", Photo: <Photo />, PTS: 5 },
+  { Nom: "Pepper", Photo: <Photo />, PTS: 6 },
   { Nom: "Alice", Photo: <AliceArr />, PTS: 3 },
   { Nom: "Maxime", Photo: <MaxArr />, PTS: 6 },
   { Nom: "Steve", Photo: <SteveArr />, PTS: 1 },
