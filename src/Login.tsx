@@ -49,7 +49,7 @@ const defi = [
   { D: "5", Nom: "" },
   { D: "6", Nom: "" },
   { D: "7", Nom: "" },
-  { D: "8", Nom: "" },
+  { D: "8", Nom: "ST" },
   { D: "9", Nom: "" },
   { D: "10", Nom: "MA, MeD"},
   { D: "11", Nom: "AL,XP" },
