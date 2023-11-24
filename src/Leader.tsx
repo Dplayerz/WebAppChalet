@@ -91,9 +91,10 @@ const You = data[9].PTS;
 const Mar = data[10].PTS;
 const Yan = data[11].PTS;
 const MeD = data[12].PTS;
+const AleX = data[13].PTS; 
 
 export const team1 = Yan + Max + You + Eli + Al + Ca + MeD; 
-export const team2 = Pep + Stev + Ka + Ra + Em + Mar;
+export const team2 = Pep + Stev + Ka + Ra + Em + Mar + AleX;
 
 data.sort((a, b) => {
   if (b.PTS < a.PTS) return -1;
