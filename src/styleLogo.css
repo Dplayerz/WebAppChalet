@@ -20,15 +20,3 @@ to {
 }}
 
 
-.Admin {
-animation: Opacity 6s;
-}
-
-.Login{
-    display:none;
-}
-
-@keyframes Opacity {
-    from{opacity: 0%;}
-    to{opacity: 100%;}
-}
