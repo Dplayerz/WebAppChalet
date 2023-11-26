@@ -3,9 +3,7 @@ color: azure;
 text-align: center;
 font-size: 50px;
 background-color: black;
-  animation: fadeBackground 3s;
-    animation-fill-mode: forwards;
-
+  
 }
 
 table tr,td,th {
