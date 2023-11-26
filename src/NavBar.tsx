@@ -16,6 +16,9 @@ export default function Nav() {
 
           
           <Link to="./Login" className="Login">Défis</Link>
+          <Link to="./Hidden" className="HideX">
+            about
+          </Link>
         </li>
       </ul>
     </nav>
