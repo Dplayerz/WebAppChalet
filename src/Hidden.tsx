@@ -1,7 +1,12 @@
-import "./styles.css";
+import gif from "./assets/UGZq.gif";
+import "./Pouf.css";
 
-function Hide() {
-  return <div>5555</div>;
+function Hidden() {
+  return (
+    <h1>
+      <img src={gif} className="Pouf"></img>
+    </h1>
+  );
 }
 
-export default Hide;
+export default Hidden;
