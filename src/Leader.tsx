@@ -12,7 +12,7 @@ import cath from "./assets/CathCha.jpg";
 import Eliane from "./assets/ElianeCha2.jpg";
 import youri from "./assets/YouriCha.jpg";
 import mari from "./assets/MariCha.jpg";
-import Bug from "./assets/small rat.png";
+import Bug from "./assets/YanniChaV.jpg";
 import alexe from "./assets/alexeCha.jpg";
 
 
