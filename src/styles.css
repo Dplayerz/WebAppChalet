@@ -78,6 +78,14 @@ animation: Opacity 6s;
     text-decoration: none;
     padding: 10px;
 }
+div {
+    color: white;
+}
+a {
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+}
 
 
 
