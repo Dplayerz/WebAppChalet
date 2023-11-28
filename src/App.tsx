@@ -6,6 +6,8 @@ import Admin from "./Admin";
 import Leader from "./Leader";
 import Login from "./Login";
 import Hide from "./Hidden";
+import Question from "./Questionnaire";
+
 
 
 function App() {
@@ -20,6 +22,7 @@ function App() {
         <Route path="/Admin" element={<Admin />}></Route>
         <Route path="/Login" element={<Login />}></Route>
         <Route path="/Hidden" element={<Hide />}></Route>
+        <Route path="/Questionnaire" element={<Question />}></Route>
         
       </Routes>
     </BrowserRouter>
