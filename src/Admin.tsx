@@ -34,7 +34,7 @@ function Admin() {
           );
         })}
       </table>
-<p>gsgsgshdhd</p>
+<p>Update coming.. </p>
     </div>
   );
 }
