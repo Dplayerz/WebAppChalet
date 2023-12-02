@@ -14,7 +14,7 @@ export default function Nav() {
         <img src={Logo} alt="logo" className="logo" />
       </Link>
       <button
-        className="buttonDrop"
+        className="button-85"
         onClick={() => setOpenprofile((prev) => !prev)}
       >
         MENU
