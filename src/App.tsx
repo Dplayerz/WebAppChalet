@@ -7,6 +7,7 @@ import Leader from "./Leader";
 import Login from "./Login";
 import Hide from "./Hidden";
 import Question from "./Questionnaire";
+import Souvenir from"./upload";
 
 
 
@@ -23,6 +24,7 @@ function App() {
         <Route path="/Login" element={<Login />}></Route>
         <Route path="/Hidden" element={<Hide />}></Route>
         <Route path="/Questionnaire" element={<Question />}></Route>
+        <Route path="/upload" element={<Souvenir />}></Route>
         
       </Routes>
     </BrowserRouter>
