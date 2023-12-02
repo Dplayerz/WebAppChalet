@@ -21,5 +21,25 @@ h3{
 .image{
     color: black;
 }
+.Gucci2{
+    position:absolute;
+    left: 250px;
+    top: 125px;
+    width:120px;
+    padding:15px;
+    border-radius: 15px;
+    background-color: black;
+    border: 1px solid white;
+}
+li {
+    padding: 5px;
+}
+.buttonDrop{
+    position:absolute;
+    left:280px;
+    color: black;
+    background-color: white;
+}
+
 
 
