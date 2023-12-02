@@ -1,24 +1,27 @@
 import "./styleLogo.css";
 import { Link } from "react-router-dom";
 import Logo from "./assets/PEPPERLogoReal.png";
+import "./styles.css";
+import DropDown from "./dropDown";
+import { useState } from "react";
 
 export default function Nav() {
+  const [openProfile, setOpenprofile] = useState(false);
+
   return (
     <nav className="nav">
       <Link to="/" className="site-title">
         <img src={Logo} alt="logo" className="logo" />
       </Link>
+      <button
+        className="buttonDrop"
+        onClick={() => setOpenprofile((prev) => !prev)}
+      >
+        MENU
+      </button>
+      {openProfile && <DropDown />}
       <ul>
         <li>
-          <Link to="./Admin" className="Admin">
-            TeamScore
-          </Link>
-
-          
-          <Link to="./Login" className="Login">Défis</Link>
-          <Link to="./upload" className="Souv">
-            Upload
-          </Link>
           <Link to="./Hidden" className="HideX">
             about
           </Link>
