@@ -43,7 +43,7 @@ function Login() {
 
 const defi = [
   { D: "1", Nom: "AL, XP, Eli, YA, Emy,Alexe, "},
-  { D: "2", Nom: "MAX=6, Emy=3, Ya=3, XP=2, KA=1, AL=2, ELi=2, Ale=2"},
+  { D: "2", Nom: "MAX=6, Emy=3, Ya=3, XP=2, KA=1, AL=2, ELi=3, Ale=3 raph=1"},
   { D: "3", Nom: "MA" },
   { D: "4", Nom: "" },
   { D: "5", Nom: "" },
