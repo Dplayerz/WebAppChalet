@@ -62,7 +62,7 @@ function AleArr() {
 
 
 const data = [
-  { Nom: "Pepper", Photo: <Photo />, PTS: 6 },
+  { Nom: "Pepper", Photo: <Photo />, PTS: 8 },
   { Nom: "Alice", Photo: <AliceArr />, PTS: 5 },
   { Nom: "Maxime", Photo: <MaxArr />, PTS: 7 },
   { Nom: "Steve", Photo: <SteveArr />, PTS: 2 },
@@ -70,10 +70,10 @@ const data = [
   { Nom: "Cath", Photo: <CathArr />, PTS: 0 },
   { Nom: "Eliane", Photo: <ElianeArr />, PTS: 3 },
   { Nom: "Raph", Photo: <RaphArr />, PTS: 1 },
-  { Nom: "Emy", Photo: <EmyArr />, PTS: 5 },
+  { Nom: "Emy", Photo: <EmyArr />, PTS: 6 },
   { Nom: "Youri", Photo: <YouriArr />, PTS: 0 },
-  { Nom: "Mari", Photo: <MariArr />, PTS: 4 },
-  { Nom: "Yanni", Photo: <BugX />, PTS: 8 },
+  { Nom: "Mari", Photo: <MariArr />, PTS: 5 },
+  { Nom: "Yanni", Photo: <BugX />, PTS: 9 },
   { Nom: "Médé", Photo: 0, PTS:  2 }, 
 { Nom: "Alexe", Photo: <AleArr />, PTS: 4 },
 ];
