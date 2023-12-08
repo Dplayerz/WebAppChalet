@@ -51,7 +51,7 @@ const defi = [
   { D: "7", Nom: "" },
   { D: "8", Nom: "ST, Max, Ma, Emy" },
   { D: "9", Nom: "" },
-  { D: "10", Nom: "MA, MeD"},
+  { D: "10", Nom: "MA, MeD, Emy"},
   { D: "11", Nom: "AL,XP, YA" },
   { D: "12", Nom: "AL, XP, YA" },
   { D: "13", Nom: "YA,MA,MeD,Eli" },
