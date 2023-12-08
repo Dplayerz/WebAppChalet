@@ -70,7 +70,7 @@ const data = [
   { Nom: "Cath", Photo: <CathArr />, PTS: 0 },
   { Nom: "Eliane", Photo: <ElianeArr />, PTS: 7 },
   { Nom: "Raph", Photo: <RaphArr />, PTS: 2 },
-  { Nom: "Emy", Photo: <EmyArr />, PTS: 7 },
+  { Nom: "Emy", Photo: <EmyArr />, PTS: 8 },
   { Nom: "Youri", Photo: <YouriArr />, PTS: 0 },
   { Nom: "Mari", Photo: <MariArr />, PTS: 5 },
   { Nom: "Yanni", Photo: <BugX />, PTS: 9 },
