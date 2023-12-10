@@ -65,8 +65,8 @@ const data = [
   { Nom: "Pepper", Photo: <Photo />, PTS: 9 },
   { Nom: "Alice", Photo: <AliceArr />, PTS: 5 },
   { Nom: "Maxime", Photo: <MaxArr />, PTS: 9 },
-  { Nom: "Steve", Photo: <SteveArr />, PTS: 3 },
-  { Nom: "Kath", Photo: <KathArr />, PTS: 4 },
+  { Nom: "Steve", Photo: <SteveArr />, PTS: 5 },
+  { Nom: "Kath", Photo: <KathArr />, PTS: 6 },
   { Nom: "Cath", Photo: <CathArr />, PTS: 0 },
   { Nom: "Eliane", Photo: <ElianeArr />, PTS: 7 },
   { Nom: "Raph", Photo: <RaphArr />, PTS: 4 },
@@ -74,7 +74,7 @@ const data = [
   { Nom: "Youri", Photo: <YouriArr />, PTS: 0 },
   { Nom: "Mari", Photo: <MariArr />, PTS: 5 },
   { Nom: "Yanni", Photo: <BugX />, PTS: 11 },
-  { Nom: "Médé", Photo: 0, PTS:  2 }, 
+  { Nom: "Médé", Photo: 0, PTS:  5 }, 
 { Nom: "Alexe", Photo: <AleArr />, PTS: 7 },
 ];
 
