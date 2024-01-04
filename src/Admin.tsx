@@ -34,8 +34,8 @@ function Admin() {
           );
         })}
       </table>
-<p>Les vieilles: Yanni, Max, Youri, Eliane, Alice, Cath, Mede </p>
-<p>Les achigans: Pepper, Emy, Steve, Kathleen, Raph, Mari, Alexe</p>
+<p>Les vieilles: Yanni, Max, Youri, Eliane, Alice, Cath </p>
+<p>Les achigans: Pepper, Emy, Steve, Kathleen, Raph, Alexe</p>
     </div>
   );
 }
