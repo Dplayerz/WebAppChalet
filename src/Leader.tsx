@@ -8,7 +8,6 @@ import Alice from "./assets/AliceCha.jpg";
 import Raph from "./assets/RaphCha.jpg";
 import max from "./assets/MaxChalet.jpg";
 import kath from "./assets/KathCha.jpg";
-import cath from "./assets/CathCha.jpg";
 import Eliane from "./assets/ElianeCha2.jpg";
 import youri from "./assets/YouriCha.jpg";
 import Bug from "./assets/YanniChaV.jpg";
@@ -36,9 +35,7 @@ function MaxArr() {
 function KathArr() {
   return <img src={kath}></img>;
 }
-function CathArr() {
-  return <img src={cath}></img>;
-}
+
 function ElianeArr() {
   return <img src={Eliane}></img>;
 }
@@ -62,7 +59,6 @@ const data = [
   { Nom: "Maxime", Photo: <MaxArr />, PTS: 9 },
   { Nom: "Steve", Photo: <SteveArr />, PTS: 5 },
   { Nom: "Kath", Photo: <KathArr />, PTS: 6 },
-  { Nom: "Cath", Photo: <CathArr />, PTS: 0 },
   { Nom: "Eliane", Photo: <ElianeArr />, PTS: 7 },
   { Nom: "Raph", Photo: <RaphArr />, PTS: 4 },
   { Nom: "Emy", Photo: <EmyArr />, PTS: 8 },
@@ -76,15 +72,14 @@ const Al = data[1].PTS;
 const Max = data[2].PTS;
 const Stev = data[3].PTS;
 const Ka = data[4].PTS;
-const Ca = data[5].PTS;
-const Eli = data[6].PTS;
-const Ra = data[7].PTS;
-const Em = data[8].PTS;
-const You = data[9].PTS;
-const Yan = data[10].PTS;
-const AleX = data[11].PTS; 
+const Eli = data[5].PTS;
+const Ra = data[6].PTS;
+const Em = data[7].PTS;
+const You = data[8].PTS;
+const Yan = data[9].PTS;
+const AleX = data[10].PTS; 
 
-export const team1 = Yan + Max + You + Eli + Al + Ca; 
+export const team1 = Yan + Max + You + Eli + Al;
 export const team2 = Pep + Stev + Ka + Ra + Em + AleX;
 
 data.sort((a, b) => {
