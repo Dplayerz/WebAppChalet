@@ -57,14 +57,14 @@ const data = [
   { Nom: "Pepper", Photo: <Photo />, PTS: 9 },
   { Nom: "Alice", Photo: <AliceArr />, PTS: 5 },
   { Nom: "Maxime", Photo: <MaxArr />, PTS: 9 },
-  { Nom: "Steve", Photo: <SteveArr />, PTS: 5 },
-  { Nom: "Kath", Photo: <KathArr />, PTS: 6 },
-  { Nom: "Eliane", Photo: <ElianeArr />, PTS: 7 },
-  { Nom: "Raph", Photo: <RaphArr />, PTS: 4 },
-  { Nom: "Emy", Photo: <EmyArr />, PTS: 8 },
-  { Nom: "Youri", Photo: <YouriArr />, PTS: 0 },
-  { Nom: "Yanni", Photo: <BugX />, PTS: 11 },
-{ Nom: "Alexe", Photo: <AleArr />, PTS: 7 },
+  { Nom: "Steve", Photo: <SteveArr />, PTS: 7 },
+  { Nom: "Kath", Photo: <KathArr />, PTS: 7 },
+  { Nom: "Eliane", Photo: <ElianeArr />, PTS: 10 },
+  { Nom: "Raph", Photo: <RaphArr />, PTS: 7 },
+  { Nom: "Emy", Photo: <EmyArr />, PTS: 9 },
+  { Nom: "Youri", Photo: <YouriArr />, PTS: 2 },
+  { Nom: "Yanni", Photo: <BugX />, PTS: 12 },
+{ Nom: "Alexe", Photo: <AleArr />, PTS: 8 },
 ];
 
 const Pep = data[0].PTS;
