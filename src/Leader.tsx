@@ -65,9 +65,6 @@ const data = [
   { Nom: "Youri", Photo: <YouriArr />, PTS: 2 },
   { Nom: "Yanni", Photo: <BugX />, PTS: 13 },
 { Nom: "Alexe", Photo: <AleArr />, PTS: 11 },
-  { Nom: "Joueur", Photo: "Secret", PTS: 8 },
-  { Nom: "Joueur", Photo: "Secret", PTS: 8 },
-  { Nom: "Joueur", Photo: "Secret", PTS: 8 },
   ];
 
 const Pep = data[0].PTS;
