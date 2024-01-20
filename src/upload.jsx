@@ -1,30 +1,40 @@
-import { app2 } from "./firebaseStore";
-import { storage } from "./firebaseStore";
-import {useState} from "react";
-import { ref, uploadBytes } from "firebase/storage";
 import "./Pouf.css"
 
 
-
 function Upload() {
-  const [imageUpload, setImageUpload] = useState(null);
-  const uploadImage = () => {
-    if(imageUpload == null) return;
-    const imageRef = ref(storage, `image/${imageUpload.name}`);
-    uploadBytes(imageRef, imageUpload).then(()=> {
-      alert("Image Uploaded")
-    })
-  };
+ return <div>
+    <li className="liste">Mon premier est la première lettre de la capital de la Roumanie.. <br/><br/>
+       Mon deuxième est le symbole du Magnésium.. <br/><br/>
+Mon dernier est la première lettre du personnage de Bradley Cooper dans le MCU..
+         <br/><br/>
+    </li>
+    <li className="liste">Je suis un animal bâtisseur..
+    <br/><br/>
+    Cherchez mes créations.
+    </li>
+    <li className="liste">Le premier diplôme qu'on recois...  <br/><br/>
+    Le mots anglais pour "pot" <br/><br/>
+     Drug Identification Number<br/><br/></li>
+    <li className="liste">"Dans ma robe jaune, je contemple ma lecture"</li>
+    <li className="liste">Mon premier est un rang noble <br/><br/>
+     Mon deuxieme est une classe d'antropodes <br/><br/>
+     Mon dernier est un petit os plat et triangulaire <br/><br/>
+     Mon tout est une activité sociale
+     </li>
+    <li className="liste">Mon premier est le contraire de grand<br/><br/>
+    Mon deuxieme est un moyen de transport <br/><br/>
+    Mon troisieme est la premiere lettre d'une forme a 10 faces & le symbol d'uranium <br/><br/>
+    Mon dernier est là où les aiguilles de la boussole convergent.
+    </li>
+    <li className="liste"><img src={PierreT} width="200"/></li>
+    <li className="liste"><img src={Glissade} width="200"/></li>
 
-  return (
-    <div className="poulet">
-      <h1>Drop the file, et appuyer sur Upload Image</h1>
-      <p>Un message de confirmation apparaitra</p>
-      <input type="file" className="image" onChange={(event) => {setImageUpload(event.target.files[0])}}></input>
-      <button onClick={uploadImage}>Upload image</button>
-      <p>MERCI</p>
-    </div>
-  );
+
+    
+    
+    
+</div>
 }
+
 
 export default Upload;
