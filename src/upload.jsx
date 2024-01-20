@@ -1,5 +1,6 @@
 import "./Pouf.css"
-
+import PierreT from "./assets/PierreT.jpg"
+import Glissade from "./assets/Glissade.jpg"
 
 function Upload() {
  return <div>
