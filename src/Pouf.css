@@ -102,5 +102,11 @@ li {
   top: 0;
   border-radius: 10px;
 }
-
+.liste{
+    text-align: center;
+    padding: 20px;
+    border: 1px solid black;
+    font-size: 30px;
+    list-style-type: none;
+}
 
