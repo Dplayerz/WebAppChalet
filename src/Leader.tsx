@@ -62,9 +62,10 @@ const data = [
   { Nom: "Eliane", Photo: <ElianeArr />, PTS: 14 },
   { Nom: "Raph", Photo: <RaphArr />, PTS: 15 },
   { Nom: "Emy", Photo: <EmyArr />, PTS: 9 },
-  { Nom: "Youri", Photo: <YouriArr />, PTS: 2 },
+  { Nom: "Sarah", Photo: "NA", PTS: 3 },
   { Nom: "Yanni", Photo: <BugX />, PTS: 13 },
 { Nom: "Alexe", Photo: <AleArr />, PTS: 11 },
+  { Nom: "Emile", Photo: "NA", PTS: 3 },
   ];
 
 const Pep = data[0].PTS;
@@ -75,12 +76,13 @@ const Ka = data[4].PTS;
 const Eli = data[5].PTS;
 const Ra = data[6].PTS;
 const Em = data[7].PTS;
-const You = data[8].PTS;
+const Sar = data[8].PTS;
 const Yan = data[9].PTS;
 const AleX = data[10].PTS;
+const Emil = data[11].PTS;
 
-export const team1 = Yan + Max + You + Eli + Al + AleX;
-export const team2 = Pep + Stev + Ka + Ra + Em;
+export const team1 = Yan + Max + Eli + Al + AleX + Em;
+export const team2 = Pep + Stev + Ka + Ra + Sar + Emil;
 
 data.sort((a, b) => {
   if (b.PTS < a.PTS) return -1;
