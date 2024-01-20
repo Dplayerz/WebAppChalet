@@ -9,7 +9,6 @@ import Raph from "./assets/RaphCha.jpg";
 import max from "./assets/MaxChalet.jpg";
 import kath from "./assets/KathCha.jpg";
 import Eliane from "./assets/ElianeCha2.jpg";
-import youri from "./assets/YouriCha.jpg";
 import Bug from "./assets/YanniChaV.jpg";
 import alexe from "./assets/alexeCha.jpg";
 
@@ -38,10 +37,6 @@ function KathArr() {
 
 function ElianeArr() {
   return <img src={Eliane}></img>;
-}
-
-function YouriArr() {
-  return <img src={youri}></img>;
 }
 
 
