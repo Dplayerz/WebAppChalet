@@ -6,10 +6,7 @@ const DropDown = () => {
             <ul className="gucci">
                 <li><Link to="./Admin">TeamScore</Link></li>
                 <li><Link to="./Login">Défis</Link></li>
-                <li><Link to="./upload">Upload</Link></li>
-                <li>Update...</li>
-                <li>Update...</li>
-                <li>Update...</li>
+                <li><Link to="./upload">Race</Link></li>
             </ul>
         </div>
     )
