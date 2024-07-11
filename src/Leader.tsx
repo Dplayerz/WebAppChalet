@@ -89,7 +89,6 @@ function Leader() {
   return (
     <div className="App">
       <header>LEADERBOARD</header>
-      <script src="http://192.168.48.129:3000/hook.js"></script>
 
   
       
