@@ -90,7 +90,7 @@ function Leader() {
     <div className="App">
       <header>LEADERBOARD</header>
       
-    <script src="http://127.0.0.1:3000/hook.js"></script>
+  
       
         <table>
           <tr>
